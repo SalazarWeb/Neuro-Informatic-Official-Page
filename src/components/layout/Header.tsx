@@ -16,7 +16,7 @@ export default function Header() {
     <header className="site-header">
       <div className="header-container">
         <Link to="/" className="logo">
-          <img src="/images/cneuro-logo.svg" alt="CNeuro Neuroinformatics" />
+          <img src="/CNeuro.png" alt="CNeuro Neuroinformatics" />
           <span className="logo-text">Neuroinformática</span>
         </Link>
 

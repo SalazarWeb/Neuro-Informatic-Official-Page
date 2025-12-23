@@ -1,13 +1,22 @@
 export interface Member {
   id: string;
   name: string;
+  category: 'lab-member' | 'collaborator';
   role: {
     es: string;
     en: string;
   };
+  affiliation: {
+    department: {
+      es: string;
+      en: string;
+    };
+    center: string;
+  };
   email: string;
+  phone?: string;
   photo?: string;
-  bio: {
+  cv: {
     es: string;
     en: string;
   };
@@ -30,6 +39,20 @@ export interface Member {
   orcid?: string;
   googleScholar?: string;
   researchGate?: string;
+  socialNetworks?: {
+    twitter?: string;
+    linkedin?: string;
+    github?: string;
+  };
+  openSource?: {
+    name: string;
+    description: {
+      es: string;
+      en: string;
+    };
+    url: string;
+  }[];
+  supervisedStudents?: string[]; // student IDs
 }
 
 export interface Project {
@@ -55,6 +78,7 @@ export interface Project {
 export interface Student {
   id: string;
   name: string;
+  level: 'undergraduate' | 'master' | 'phd';
   program: {
     es: string;
     en: string;
@@ -62,9 +86,15 @@ export interface Student {
   supervisor: string; // member ID
   startYear: number;
   endYear?: number;
+  expectedGraduation?: number;
+  project?: string; // project ID
   thesis?: {
     es: string;
     en: string;
+  };
+  researchInterests?: {
+    es: string[];
+    en: string[];
   };
   email?: string;
 }
@@ -87,4 +117,23 @@ export interface ClusterResource {
     es: string;
     en: string;
   };
+}
+
+export interface ClusterDocument {
+  id: string;
+  title: {
+    es: string;
+    en: string;
+  };
+  description: {
+    es: string;
+    en: string;
+  };
+  category: 'getting-started' | 'technical-guide' | 'resource' | 'tutorial';
+  type: 'document' | 'download' | 'external-link';
+  url?: string;
+  downloadUrl?: string;
+  fileSize?: string;
+  lastUpdated?: string;
+  icon?: string;
 }

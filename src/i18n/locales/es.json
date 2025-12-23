@@ -9,42 +9,107 @@
   },
   "home": {
     "title": "Departamento de Neuroinformática",
-    "subtitle": "CNeuro",
+    "subtitle": "Centro de Neurociencias - CNeuro",
+    "introduction": "El Departamento de Neuroinformática desarrolla y aplica métodos computacionales para el análisis de datos neurocientíficos. Nuestro trabajo integra disciplinas como la estadística, el aprendizaje automático y la modelación matemática al servicio de la investigación en neurociencias.",
+    "role": "Como parte de CNeuro, el departamento proporciona soporte metodológico y computacional a los proyectos de investigación del centro, además de desarrollar líneas de investigación propias en análisis de datos neuronales y neuroimagen.",
     "whoWeAre": {
       "title": "Quiénes Somos",
-      "description": "El Departamento de Neuroinformática de CNeuro integra métodos computacionales y analíticos para el estudio del sistema nervioso. Nuestro trabajo se enfoca en el desarrollo de herramientas y metodologías que permitan comprender los mecanismos neuronales a través del análisis de datos complejos."
+      "description": "El Departamento de Neuroinformática de CNeuro integra métodos computacionales y analíticos para el estudio del sistema nervioso. Nuestro trabajo se enfoca en el desarrollo de herramientas y metodologías que permitan comprender los mecanismos neuronales a través del análisis de datos complejos.",
+      "context": {
+        "title": "Contexto Institucional",
+        "content": "El Departamento de Neuroinformática es una unidad del Centro de Neurociencias (CNeuro) especializada en el análisis cuantitativo de datos neurocientíficos. El departamento opera en la intersección de las neurociencias, las ciencias de la computación y las matemáticas aplicadas."
+      },
+      "relationship": {
+        "title": "Relación con CNeuro",
+        "content": "Como parte integral de CNeuro, el departamento colabora con los distintos grupos de investigación del centro proporcionando experiencia metodológica en diseño experimental, análisis estadístico y modelado computacional. Esta colaboración facilita la traducción de datos experimentales en conocimiento sobre la estructura y función del sistema nervioso."
+      },
+      "mission": {
+        "title": "Misión",
+        "content": "Desarrollar y aplicar métodos computacionales rigurosos para el análisis de datos neurocientíficos, contribuyendo al avance del conocimiento sobre el sistema nervioso mediante el uso de herramientas cuantitativas y la formación de investigadores en neuroinformática."
+      },
+      "scope": {
+        "title": "Alcance del Trabajo",
+        "areas": [
+          "Análisis de datos de electroencefalografía (EEG) y magnetoencefalografía (MEG)",
+          "Procesamiento y análisis de imágenes de resonancia magnética funcional (fMRI)",
+          "Modelado computacional de sistemas neuronales",
+          "Desarrollo de herramientas de software para análisis de datos neurocientíficos",
+          "Aplicación de métodos de aprendizaje automático a datos neuronales",
+          "Asesoría metodológica en proyectos de neurociencias"
+        ]
+      }
     }
   },
   "people": {
     "title": "Personas",
+    "labMembers": "Miembros del Laboratorio",
+    "collaborators": "Colaboradores",
     "viewProfile": "Ver perfil",
     "profile": {
       "biography": "Biografía",
+      "cv": "Curriculum Vitae",
+      "affiliation": "Afiliación",
+      "contact": "Contacto",
       "education": "Formación Académica",
       "research": "Intereses de Investigación",
-      "publications": "Publicaciones Seleccionadas",
+      "publications": "Publicaciones",
+      "openSource": "Código Abierto y Herramientas",
+      "supervisedStudents": "Estudiantes Supervisados",
+      "socialNetworks": "Redes Sociales",
+      "academicProfiles": "Perfiles Académicos",
       "backToPeople": "Volver a Personas"
     }
   },
   "projects": {
     "title": "Proyectos de Investigación",
+    "description": "Líneas de investigación activas y proyectos del departamento",
     "status": "Estado",
     "active": "Activo",
     "completed": "Completado",
-    "funding": "Financiamiento"
+    "funding": "Financiamiento",
+    "period": "Período",
+    "present": "Presente",
+    "researchers": "Investigadores",
+    "noFunding": "Financiamiento interno"
   },
   "cluster": {
-    "title": "Recursos del Cluster",
+    "title": "Recursos Computacionales",
+    "subtitle": "Documentación y guías del cluster de cómputo",
     "description": "Infraestructura computacional disponible para la investigación",
     "specifications": "Especificaciones",
-    "access": "Acceso"
+    "access": "Acceso",
+    "documentation": "Documentación",
+    "categories": {
+      "getting-started": "Primeros Pasos",
+      "technical-guide": "Guías Técnicas",
+      "resource": "Recursos",
+      "tutorial": "Tutoriales"
+    },
+    "viewDocument": "Ver documento",
+    "download": "Descargar",
+    "lastUpdated": "Última actualización",
+    "fileSize": "Tamaño",
+    "externalLink": "Enlace externo",
+    "noDocuments": "No hay documentos disponibles en esta categoría"
   },
   "students": {
     "title": "Estudiantes",
+    "subtitle": "Estudiantes del departamento por nivel académico",
     "current": "Estudiantes Actuales",
     "alumni": "Egresados",
     "program": "Programa",
-    "supervisor": "Supervisor"
+    "supervisor": "Supervisor",
+    "project": "Proyecto Asociado",
+    "started": "Inicio",
+    "expected": "Graduación Esperada",
+    "completed": "Completado",
+    "researchInterests": "Intereses de Investigación",
+    "levels": {
+      "undergraduate": "Pregrado",
+      "master": "Magíster",
+      "phd": "Doctorado"
+    },
+    "noStudents": "No hay estudiantes en esta categoría actualmente"
   },
   "footer": {
     "contact": "Contacto",

@@ -9,42 +9,107 @@
   },
   "home": {
     "title": "Neuroinformatics Department",
-    "subtitle": "CNeuro",
+    "subtitle": "Center for Neuroscience - CNeuro",
+    "introduction": "The Neuroinformatics Department develops and applies computational methods for the analysis of neuroscientific data. Our work integrates disciplines such as statistics, machine learning, and mathematical modeling in service of neuroscience research.",
+    "role": "As part of CNeuro, the department provides methodological and computational support to the center's research projects, while also developing its own research lines in neural data analysis and neuroimaging.",
     "whoWeAre": {
       "title": "Who We Are",
-      "description": "The Neuroinformatics Department at CNeuro integrates computational and analytical methods for the study of the nervous system. Our work focuses on developing tools and methodologies to understand neural mechanisms through complex data analysis."
+      "description": "The Neuroinformatics Department at CNeuro integrates computational and analytical methods for the study of the nervous system. Our work focuses on developing tools and methodologies to understand neural mechanisms through complex data analysis.",
+      "context": {
+        "title": "Institutional Context",
+        "content": "The Neuroinformatics Department is a unit within the Center for Neuroscience (CNeuro) specialized in quantitative analysis of neuroscientific data. The department operates at the intersection of neuroscience, computer science, and applied mathematics."
+      },
+      "relationship": {
+        "title": "Relationship with CNeuro",
+        "content": "As an integral part of CNeuro, the department collaborates with the center's various research groups by providing methodological expertise in experimental design, statistical analysis, and computational modeling. This collaboration facilitates the translation of experimental data into knowledge about the structure and function of the nervous system."
+      },
+      "mission": {
+        "title": "Mission",
+        "content": "To develop and apply rigorous computational methods for the analysis of neuroscientific data, contributing to the advancement of knowledge about the nervous system through the use of quantitative tools and the training of researchers in neuroinformatics."
+      },
+      "scope": {
+        "title": "Scope of Work",
+        "areas": [
+          "Analysis of electroencephalography (EEG) and magnetoencephalography (MEG) data",
+          "Processing and analysis of functional magnetic resonance imaging (fMRI)",
+          "Computational modeling of neural systems",
+          "Development of software tools for neuroscientific data analysis",
+          "Application of machine learning methods to neural data",
+          "Methodological consulting in neuroscience projects"
+        ]
+      }
     }
   },
   "people": {
     "title": "People",
+    "labMembers": "Lab Members",
+    "collaborators": "Collaborators",
     "viewProfile": "View profile",
     "profile": {
       "biography": "Biography",
+      "cv": "Curriculum Vitae",
+      "affiliation": "Affiliation",
+      "contact": "Contact",
       "education": "Education",
       "research": "Research Interests",
-      "publications": "Selected Publications",
+      "publications": "Publications",
+      "openSource": "Open Source Code and Toolboxes",
+      "supervisedStudents": "Supervised Students",
+      "socialNetworks": "Social Networks",
+      "academicProfiles": "Academic Profiles",
       "backToPeople": "Back to People"
     }
   },
   "projects": {
     "title": "Research Projects",
+    "description": "Active research lines and department projects",
     "status": "Status",
     "active": "Active",
     "completed": "Completed",
-    "funding": "Funding"
+    "funding": "Funding",
+    "period": "Period",
+    "present": "Present",
+    "researchers": "Researchers",
+    "noFunding": "Internal funding"
   },
   "cluster": {
-    "title": "Cluster Resources",
+    "title": "Computational Resources",
+    "subtitle": "Cluster documentation and guides",
     "description": "Computational infrastructure available for research",
     "specifications": "Specifications",
-    "access": "Access"
+    "access": "Access",
+    "documentation": "Documentation",
+    "categories": {
+      "getting-started": "Getting Started",
+      "technical-guide": "Technical Guides",
+      "resource": "Resources",
+      "tutorial": "Tutorials"
+    },
+    "viewDocument": "View document",
+    "download": "Download",
+    "lastUpdated": "Last updated",
+    "fileSize": "Size",
+    "externalLink": "External link",
+    "noDocuments": "No documents available in this category"
   },
   "students": {
     "title": "Students",
+    "subtitle": "Department students by academic level",
     "current": "Current Students",
     "alumni": "Alumni",
     "program": "Program",
-    "supervisor": "Supervisor"
+    "supervisor": "Supervisor",
+    "project": "Associated Project",
+    "started": "Started",
+    "expected": "Expected Graduation",
+    "completed": "Completed",
+    "researchInterests": "Research Interests",
+    "levels": {
+      "undergraduate": "Undergraduate",
+      "master": "Master",
+      "phd": "PhD"
+    },
+    "noStudents": "No students in this category currently"
   },
   "footer": {
     "contact": "Contact",
