@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "whoWeAre": "Who We Are",
+    "people": "People",
+    "projects": "Projects",
+    "cluster": "Cluster",
+    "students": "Students"
+  },
+  "home": {
+    "title": "Neuroinformatics Department",
+    "subtitle": "CNeuro",
+    "whoWeAre": {
+      "title": "Who We Are",
+      "description": "The Neuroinformatics Department at CNeuro integrates computational and analytical methods for the study of the nervous system. Our work focuses on developing tools and methodologies to understand neural mechanisms through complex data analysis."
+    }
+  },
+  "people": {
+    "title": "People",
+    "viewProfile": "View profile",
+    "profile": {
+      "biography": "Biography",
+      "education": "Education",
+      "research": "Research Interests",
+      "publications": "Selected Publications",
+      "backToPeople": "Back to People"
+    }
+  },
+  "projects": {
+    "title": "Research Projects",
+    "status": "Status",
+    "active": "Active",
+    "completed": "Completed",
+    "funding": "Funding"
+  },
+  "cluster": {
+    "title": "Cluster Resources",
+    "description": "Computational infrastructure available for research",
+    "specifications": "Specifications",
+    "access": "Access"
+  },
+  "students": {
+    "title": "Students",
+    "current": "Current Students",
+    "alumni": "Alumni",
+    "program": "Program",
+    "supervisor": "Supervisor"
+  },
+  "footer": {
+    "contact": "Contact",
+    "address": "Address"
+  }
+}

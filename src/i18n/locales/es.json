@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "whoWeAre": "Quiénes Somos",
+    "people": "Personas",
+    "projects": "Proyectos",
+    "cluster": "Cluster",
+    "students": "Estudiantes"
+  },
+  "home": {
+    "title": "Departamento de Neuroinformática",
+    "subtitle": "CNeuro",
+    "whoWeAre": {
+      "title": "Quiénes Somos",
+      "description": "El Departamento de Neuroinformática de CNeuro integra métodos computacionales y analíticos para el estudio del sistema nervioso. Nuestro trabajo se enfoca en el desarrollo de herramientas y metodologías que permitan comprender los mecanismos neuronales a través del análisis de datos complejos."
+    }
+  },
+  "people": {
+    "title": "Personas",
+    "viewProfile": "Ver perfil",
+    "profile": {
+      "biography": "Biografía",
+      "education": "Formación Académica",
+      "research": "Intereses de Investigación",
+      "publications": "Publicaciones Seleccionadas",
+      "backToPeople": "Volver a Personas"
+    }
+  },
+  "projects": {
+    "title": "Proyectos de Investigación",
+    "status": "Estado",
+    "active": "Activo",
+    "completed": "Completado",
+    "funding": "Financiamiento"
+  },
+  "cluster": {
+    "title": "Recursos del Cluster",
+    "description": "Infraestructura computacional disponible para la investigación",
+    "specifications": "Especificaciones",
+    "access": "Acceso"
+  },
+  "students": {
+    "title": "Estudiantes",
+    "current": "Estudiantes Actuales",
+    "alumni": "Egresados",
+    "program": "Programa",
+    "supervisor": "Supervisor"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "address": "Dirección"
+  }
+}
