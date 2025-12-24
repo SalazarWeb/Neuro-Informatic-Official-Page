@@ -1,5 +1,10 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import aboutIcon from '../../assets/about.svg';
+import peopleIcon from '../../assets/people.svg';
+import projectsIcon from '../../assets/projects.svg';
+import clusterIcon from '../../assets/cluster.svg';
+import studentsIcon from '../../assets/students.svg';
 
 export default function Header() {
   const { t, i18n } = useTranslation();
@@ -21,23 +26,25 @@ export default function Header() {
         </Link>
 
         <nav className="main-nav">
-          <Link to="/" className={isActive('/') ? 'active' : ''}>
-            {t('nav.home')}
-          </Link>
-          <Link to="/who-we-are" className={isActive('/who-we-are') ? 'active' : ''}>
-            {t('nav.whoWeAre')}
-          </Link>
           <Link to="/people" className={isActive('/people') || location.pathname.startsWith('/people/') ? 'active' : ''}>
-            {t('nav.people')}
+            <img src={peopleIcon} alt="" className="nav-icon" />
+            <span className="nav-text">{t('nav.people')}</span>
           </Link>
           <Link to="/projects" className={isActive('/projects') ? 'active' : ''}>
-            {t('nav.projects')}
+            <img src={projectsIcon} alt="" className="nav-icon" />
+            <span className="nav-text">{t('nav.projects')}</span>
           </Link>
           <Link to="/cluster" className={isActive('/cluster') ? 'active' : ''}>
-            {t('nav.cluster')}
+            <img src={clusterIcon} alt="" className="nav-icon" />
+            <span className="nav-text">{t('nav.cluster')}</span>
           </Link>
           <Link to="/students" className={isActive('/students') ? 'active' : ''}>
-            {t('nav.students')}
+            <img src={studentsIcon} alt="" className="nav-icon" />
+            <span className="nav-text">{t('nav.students')}</span>
+          </Link>
+          <Link to="/who-we-are" className={isActive('/who-we-are') ? 'active' : ''}>
+            <img src={aboutIcon} alt="" className="nav-icon" />
+            <span className="nav-text">{t('nav.whoWeAre')}</span>
           </Link>
         </nav>
 

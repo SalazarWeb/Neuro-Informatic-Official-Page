@@ -16,9 +16,7 @@ export default function Footer() {
         <div className="footer-section">
           <h3>{t('footer.address')}</h3>
           <address>
-            Centro de Neurociencias<br />
-            Universidad Nacional<br />
-            Chile
+            Centro de Neurociencias de Cuba
           </address>
         </div>
 

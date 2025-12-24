@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import neuroinformaticaImg from '../assets/neuroinformatica.jpg';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -15,7 +16,7 @@ export default function Home() {
       {/* Foto grupal del departamento */}
       <section className="group-photo-section">
         <img 
-          src="/images/group-photo.jpg" 
+          src={neuroinformaticaImg} 
           alt="Neuroinformatics Department Team"
           className="group-photo"
         />

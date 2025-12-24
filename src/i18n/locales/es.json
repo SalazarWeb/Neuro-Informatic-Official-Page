@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Inicio",
-    "whoWeAre": "Quiénes Somos",
+    "whoWeAre": "Sobre Nosotros",
     "people": "Personas",
     "projects": "Proyectos",
     "cluster": "Cluster",
@@ -13,7 +13,7 @@
     "introduction": "El Departamento de Neuroinformática desarrolla y aplica métodos computacionales para el análisis de datos neurocientíficos. Nuestro trabajo integra disciplinas como la estadística, el aprendizaje automático y la modelación matemática al servicio de la investigación en neurociencias.",
     "role": "Como parte de CNeuro, el departamento proporciona soporte metodológico y computacional a los proyectos de investigación del centro, además de desarrollar líneas de investigación propias en análisis de datos neuronales y neuroimagen.",
     "whoWeAre": {
-      "title": "Quiénes Somos",
+      "title": "Sobre Nosotros",
       "description": "El Departamento de Neuroinformática de CNeuro integra métodos computacionales y analíticos para el estudio del sistema nervioso. Nuestro trabajo se enfoca en el desarrollo de herramientas y metodologías que permitan comprender los mecanismos neuronales a través del análisis de datos complejos.",
       "context": {
         "title": "Contexto Institucional",
